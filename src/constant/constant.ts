@@ -38,7 +38,7 @@ export const Novios = {
 
 
 export const Portada2 = {
-    Imagen: "https://marroquinabogados.com/wp-content/uploads/2021/09/pareja-estable-matrimonio-civil-diferencia-bufete-marroquin-actualidad-1.jpg",
+    Imagen: "https://img.freepik.com/foto-gratis/novio-que-pone-anillo-dedo-novia_1157-338.jpg",
     Frase: "El amor no es mirarse el uno al otro,\n es mirar juntos en la misma dirección.",
 }
 
