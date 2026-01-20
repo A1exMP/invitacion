@@ -244,14 +244,7 @@ const closeModal = () => {
   }
 }
 
-/* Título del modal */
-.modal-title {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.8rem;
-  text-align: center;
-  color: #c07a8b; /* rosado romántico */
-  margin-bottom: 1.2rem;
-}
+
 
 /* Contenedor del iframe */
 .map-container {
@@ -279,7 +272,6 @@ const closeModal = () => {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.1rem;
   color: #8f5c68;
-  margin-bottom: 1rem;
 }
 
 </style>

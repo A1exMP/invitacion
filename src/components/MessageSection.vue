@@ -47,14 +47,17 @@ import { Portada2 } from "../constant/constant";
   text-align: center;
   z-index: 2; /* Encima de la imagen */
   padding: 0 20px;
+  box-sizing: border-box; /* Ensure padding doesn't add to width */
 }
 
 .romantic-text {
-    white-space: pre-line;
+  white-space: pre-line;
   color: white;
   margin: 0;
   /* Ensure it has a nice shadow for readability if fade isn't enough, but img-fade-y should handle it */
   text-shadow: 0 2px 4px rgba(0,0,0,0.3); 
+  width: 100%;
+  overflow-wrap: break-word; /* Prevent long words from overflowing */
 }
 
 @media (max-width: 768px) {
