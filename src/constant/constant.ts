@@ -1,5 +1,5 @@
-export const NombreNovio = "Carlos Eduardo";
-export const NombreNovia = "Ana María";
+export const NombreNovio = "Gustavo Paredes";
+export const NombreNovia = "Teresa Vega";
 
 export const NombresPadres = {
     titulo_1: "Padres de la Novia",
