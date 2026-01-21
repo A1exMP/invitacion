@@ -59,10 +59,10 @@ export const MapaUbicacion = {
     pasos: [
         "¡El regalo es opcional, la asistencia obligatoria!",
         "Pero si deseas tener un detalle con nosotros, puedes hacerlo:",
-        "a. Con obsequio enviandolo a Urb. Leoncio Prado W8 - Kennedy"
-        "b. Con transferencia bancaria:"
-        "BANCO BCP Cuenta: 21594885669004"
-        "CCI: 00221519488566900424"
+        "a. Con obsequio enviandolo a Urb. Leoncio Prado W8 - Kennedy",
+        "b. Con transferencia bancaria:",
+        "BANCO BCP Cuenta: 21594885669004",
+        "CCI: 00221519488566900424",
         "Maria Teresa Vega | DNI: 73207623"],
     titulo_modal_novios: "Contactanos",
     novio: "Gustavo Paredes",
