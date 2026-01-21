@@ -1,26 +1,25 @@
-export const NombreNovio = "Gustavo Paredes";
-export const NombreNovia = "Teresa Vega";
+export const NombreNovio = "Gustavo Walther Paredes";
+export const NombreNovia = "Maria Teresa Carmen Vega";
 
 export const NombresPadres = {
-    titulo_1: "Padres de la Novia",
-    NombrePadreNovio: "Juan Carlos",
-    NombreMadreNovio: "Sandra Elena",
-    titulo_2: "Padres del Novio",
-    NombrePadreNovia: "Angel Eduardo",
-    NombreMadreNovia: "Maria Elena",
+    titulo_1: "Padres de la Novio",
+    NombrePadreNovio: "Walter Alfredo Paredes Vilca",
+    NombreMadreNovio: "Edith Ysabel Quispe Zea",
+    titulo_2: "Padres del Novia",
+    NombrePadreNovia: "Fidel Vega Chama",
+    NombreMadreNovia: "Ana Maria Vega Vargas",
 }
 
 export const FechaLugar = {
-    Titulo_seccion: "Ceremonia y Recepción",
-    Lugar: "Av Tacna y Arica 101",
-    Distrito: "Arequipa, Miraflores",
-    Titulo_seccion_2: "Al realizar el dia:",
-    DiaSemana: "Lunes",
-    Dia: "07",
-    Mes: "06",
-    Anio: "2025",
-    Hora: "14:55",
-
+    Titulo_seccion: "Ceremonia Religiosa",
+    Lugar: "Parroquia Nsta. Sra. de la Providencia",
+    Distrito: "Calle Ugarte S/N, Paucarpata - Kennedy",
+    Titulo_seccion_2: "Se realizará el:",
+    DiaSemana: "Sábado",
+    Dia: "21",
+    Mes: "02",
+    Anio: "2026",
+    Hora: "11:30 am",
 }
 
 export const Portada = {
@@ -31,9 +30,9 @@ export const Portada = {
 
 
 export const Novios = {
-    Novio: "Michael Torres Cruz",
-    Novia: "Ana María Galvez",
-    Mensaje: "Para que sean testigos de nuestra boda.",
+    Novio: "Gustavo Walther Paredes",
+    Novia: "Maria Teresa Carmen Vega",
+    Mensaje: "Para que sean testigos de Nuestra boda religiosa y civil.",
 }
 
 
