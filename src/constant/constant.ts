@@ -44,28 +44,32 @@ export const Portada2 = {
 export const Portada3 = {
     Imagen: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
     Frase: "Con todo nuestro cariño",
-    Titulo: "Ana & Carlos"
+    Titulo: "Gustavo & Teresa"
 }
 
 
 export const MapaUbicacion = {
-    Titulo_seccion: "Cómo llegar",
+    Titulo_seccion: "Para más información",
     boton_1: "Ver mapa",
     boton_2: "Indicaciones",
     boton_3: "Novios",
 
     titulo_modal_mapa: "Mapa",
-    titulo_modal_indicaciones: "Cómo llegar",
+    titulo_modal_indicaciones: "Gracias por acompañarnos",
     pasos: [
-        "1. Tomar la Av. Principal hasta el cruce con...",
-        "2. Girar a la derecha en...",
-        "3. El local se encuentra a 200m a la izquierda."],
+        "¡El regalo es opcional, la asistencia obligatoria!",
+        "Pero si deseas tener un detalle con nosotros, puedes hacerlo:",
+        "a. Con obsequio enviandolo a Urb. Leoncio Prado W8 - Kennedy"
+        "b. Con transferencia bancaria:"
+        "BANCO BCP Cuenta: 21594885669004"
+        "CCI: 00221519488566900424"
+        "Maria Teresa Vega | DNI: 73207623"],
     titulo_modal_novios: "Contactanos",
-    novio: "Carlos Eduardo",
-    novio_telefono: "999999999",
-    novia: "Ana María",
-    novia_telefono: "999999999",
+    novio: "Gustavo Paredes",
+    novio_telefono: "900489727",
+    novia: "Teresa Vega",
+    novia_telefono: "900447760",
     boton_4: "Recuerdo",
-    titulo_modal_recuerdo: "Un Lindo Recuerdo",
+    titulo_modal_recuerdo: "Fotos de la boda",
     recuerdo_url: "https://docs.google.com/forms/d/e/1FAIpQLScKs8zBZ-ZKpi12bYq20oPZXIMZvZkzENSKgvpNRFhYkQtubw/viewform?embedded=true" // Placeholder, user should update
 }
