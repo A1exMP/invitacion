@@ -42,7 +42,7 @@ export const Portada2 = {
 }
 
 export const Portada3 = {
-    Imagen: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    Imagen: "/src/assets/imagen1.jpg",
     Frase: "Con todo nuestro cariño",
     Titulo: "Gustavo & Teresa"
 }
