@@ -30,9 +30,9 @@ export const Portada = {
 
 
 export const Novios = {
-    Novio: "Maria Teresa Carmen Vega",
-    Novia: "Gustavo Walther Paredes",
-    Mensaje: "Para que sean testigos de Nuestra boda religiosa y civil.",
+    Novio: "Teresa",
+    Novia: "Gustavo",
+    Mensaje: "Para que nos acompañen a celebrar el amor que unimos ante Dios y la vida,\n en este día tan especial.",
 }
 
 
