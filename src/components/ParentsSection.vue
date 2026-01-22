@@ -11,8 +11,8 @@
     
       <div class="father">
         <p class="info-text"><strong>{{NombresPadres.titulo_2}}</strong></p>
-        <p class="info-text-variant">{{NombresPadres.NombreMadreNovia}}</p>
-        <p class="info-text-variant">{{NombresPadres.NombrePadreNovia}}</p>
+        <p class="info-text-variant">{{NombresPadres.NombreMadreNovio}}</p>
+        <p class="info-text-variant">{{NombresPadres.NombrePadreNovio}}</p>
 
       </div>
     </div>
