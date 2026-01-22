@@ -56,7 +56,7 @@ export const Portada3 = {
 
 export const MapaUbicacion = {
     Titulo_seccion: "MESA DE REGALOS Y FOTOS",
-    boton_1: "Ver mapa",
+    boton_1: "Ubicación",
     boton_2: "Detalles",
     boton_3: "Novios",
 
