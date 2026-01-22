@@ -7,8 +7,8 @@
       {{Novios.Novio}}
     </div>
    <!-- <p class="info-text"><strong>{{Novios.Mensaje}}</strong></p> -->
-    <p class="info-text"><strong>{{Novios.Mensaje}}</strong></p>
-    <p class="info.text">{{Novios.Mensaje}}</p>
+    <p class="info-text-hight"><strong>{{Novios.Mensaje}}</strong></p>
+    <p class="info-text">{{"gustavo"}}</p>
   </section>
   
 </template>
