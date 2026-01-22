@@ -89,8 +89,7 @@ body {
 }
 
 .date-highlight-variant {
-
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-text);
     font-size: 28px;
     font-weight: 550;
     letter-spacing: 0.6px;
