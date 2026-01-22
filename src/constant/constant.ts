@@ -18,9 +18,9 @@ export const FechaLugar = {
 
 
     Titulo_seccion: "Ceremonia Religiosa",
-    Lugar: "Parroquia Nsta. Sra. de la Providencia",
-    Distrito: "Calle Ugarte S/N, Paucarpata - Kennedy",
-    Titulo_seccion_2: "Fecha y hora del Matrimonio:",
+    Lugar: "Parroquia Nuestra Señora de la Providencia",
+    Distrito: "Calle Ugarte s/n, Paucarpata – Kennedy",
+    Titulo_seccion_2: "Fecha y hora de la ceremonia:",
     DiaSemana: "Sábado",
     Dia: "21",
     Mes: "02",
@@ -30,7 +30,7 @@ export const FechaLugar = {
 
 export const Portada = {
     Imagen: "https://ik.imagekit.io/dq0g9qbo0/g2.jpeg",
-    Frase: "Con la bendición de Dios y el amor de nuestras familias,\n Tenemos el honor de invitarte a celebrar nuestro matrimonio.",
+    Frase: "Con la bendición de Dios y el amor de nuestras familias,\n te invitamos a compartir con nosotros la celebración de nuestro matrimonio.",
     Titulo: "Nuestra Boda",
 };
 
