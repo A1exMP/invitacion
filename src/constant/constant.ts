@@ -52,7 +52,7 @@ export const Portada3 = {
 export const MapaUbicacion = {
     Titulo_seccion: "Para más información",
     boton_1: "Ver mapa",
-    boton_2: "Indicaciones",
+    boton_2: "Detalles",
     boton_3: "Novios",
 
     titulo_modal_mapa: "Mapa",
