@@ -1,6 +1,6 @@
 <template>
   <section class="section">
-    <p class="info-text-hight"><strong>{{ FechaLugar.Titulo_seccion }}</strong></p>
+    <p class="info-text-hight"><strong><u>{{ FechaLugar.Titulo_seccion }}</u></strong></p>
     <p class="info-text">{{ FechaLugar.Lugar}}</p>
     <p class="info-text">{{ FechaLugar.Distrito}}</p>
     
