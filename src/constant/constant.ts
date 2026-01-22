@@ -71,7 +71,7 @@ export const MapaUbicacion = {
           "Banco BCP · Cuenta: 21594885669004",
           "CCI: 00221519488566900424",
           "María Teresa Vega · DNI: 73207623"
-    titulo_modal_novios: "Contactanos",
+    titulo_modal_novios: "Contáctanos",
     novio: "Gustavo Paredes",
     novio_telefono: "900489727",
     novia: "Teresa Vega",
