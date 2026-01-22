@@ -8,7 +8,7 @@
     </div>
    <!-- <p class="info-text"><strong>{{Novios.Mensaje}}</strong></p> -->
     <p class="info-text"><strong>{{Novios.Mensaje}}</strong></p>
-    <p class="info-text">{{Novios.Mensaje}}</p>
+    <p class="info.text">{{Novios.Mensaje}}</p>
   </section>
   
 </template>
