@@ -90,9 +90,13 @@ body {
 
 .date-highlight-variant {
     font-family: var(--font-text);
-    font-size: 24px;
+    font-size: 27px;
     font-weight: 550;
     letter-spacing: 0.6px;
+      border-top: 1px dotted #3a3a3a;
+  border-bottom: 1px dotted #3a3a3a;
+  padding: 10px 0; /* Espaciado interno vertical */
+  margin: 10px 0; /* Separación del texto de arriba/abajo */
 }
 
 /* Firma final */
