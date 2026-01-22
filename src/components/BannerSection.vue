@@ -126,8 +126,19 @@ const bg = {
 
 
 @media (min-width: 720px) {
-.banner-title{
-  padding-top: 120px;
+  .banner-title{
+    padding-top: 120px;
+  }
 }
+
+
+.banner-bg {
+  /* ... */
+  background-position: center; /* Móvil por defecto */
+}
+@media (min-width: 768px) {
+  .banner-bg {
+    background-position: center -50px; /* Solo escritorio */
+  }
 }
 </style>
