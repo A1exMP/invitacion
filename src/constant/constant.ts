@@ -25,7 +25,7 @@ export const FechaLugar = {
     Dia: "21",
     Mes: "02",
     Anio: "2026",
-    Hora: "11:30 am",,
+    Hora: "11:30 am",
 };
 
 export const Portada = {
