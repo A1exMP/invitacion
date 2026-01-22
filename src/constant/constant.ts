@@ -20,7 +20,7 @@ export const FechaLugar = {
     Titulo_seccion: "CEREMONIA RELIGIOSA",
     Lugar: "Parroquia Nuestra Señora de la Providencia",
     Distrito: "Calle Ugarte s/n, Paucarpata – Kennedy",
-    Titulo_seccion_2: "DETALLES DE LA BODA",
+    Titulo_seccion_2: "DETALLES DE LA BODA \n gustavo",
     DiaSemana: "Sábado",
     Dia: "21",
     Mes: "02",
@@ -55,7 +55,7 @@ export const Portada3 = {
 
 
 export const MapaUbicacion = {
-    Titulo_seccion: "Para más información",
+    Titulo_seccion: "MESA DE REGALOS Y FOTOS",
     boton_1: "Ver mapa",
     boton_2: "Detalles",
     boton_3: "Novios",
@@ -65,7 +65,7 @@ export const MapaUbicacion = {
     pasos: [
         "¡El regalo es opcional, la asistencia obligatoria!",
         "Si desean tener un detalle con nosotros, pueden hacerlo de las siguientes maneras:",
-        "a. Con un obsequio enviado a:",
+        "a. Con un obsequio \n enviado a:",
         "Urb. Leoncio Prado W8 - Kennedy",
         "b. Con transferencia bancaria:",
         "Banco BCP · Cuenta: 21594885669004",
@@ -76,7 +76,7 @@ export const MapaUbicacion = {
     novio_telefono: "900489727",
     novia: "Teresa Vega",
     novia_telefono: "900447760",
-    boton_4: "Recuerdo",
+    boton_4: "Fotos",
     titulo_modal_recuerdo: "Fotos de la boda",
     recuerdo_url: "https://docs.google.com/forms/d/e/1FAIpQLScKs8zBZ-ZKpi12bYq20oPZXIMZvZkzENSKgvpNRFhYkQtubw/viewform?embedded=true" // Placeholder, user should update
 }
