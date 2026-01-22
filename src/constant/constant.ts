@@ -1,5 +1,6 @@
 export const NombreNovio = "Maria Teresa Vega";
 export const NombreNovia = "Gustavo Walther Paredes";
+import imagen1 from "@/assets/imagen1.jpg";
 
 export const NombresPadres = {
     titulo_1: "Padres de la Novio",
@@ -42,7 +43,7 @@ export const Portada2 = {
 }
 
 export const Portada3 = {
-    Imagen: "/src/assets/imagen1.jpg",
+    Imagen: imagen1,
     Frase: "Con todo nuestro cariño",
     Titulo: "Gustavo & Teresa"
 }
