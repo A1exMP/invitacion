@@ -36,8 +36,8 @@ export const Portada = {
 
 
 export const Novios = {
-    Novio: "TERESA",
-    Novia: "GUSTAVO",
+    Novio: "Teresa",
+    Novia: "Gustavo",
     Mensaje: "Nos encataría que seas parte de este momento tan especial para nosotros",
 }
 
