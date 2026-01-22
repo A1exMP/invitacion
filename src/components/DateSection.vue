@@ -3,13 +3,13 @@
   <section class="section">
     <div class="date-class">
       <p class="date-highlight-variant">{{ FechaLugar.Titulo_seccion_2 }}</p>
+      <p class="date-highlight">{{ FechaLugar.DiaSemana}} {{ FechaLugar.Hora}}</p>
       <div class="date">
         <p class="date-highlight">{{ FechaLugar.Dia}}</p>
         <p class="date-highlight">{{ FechaLugar.Mes}}</p>
         <p class="date-highlight">{{ FechaLugar.Anio}}</p>
       </div>
 
-      <p class="date-highlight">{{ FechaLugar.DiaSemana}} {{ FechaLugar.Hora}}</p>
     </div>
   </section>
 </template>
