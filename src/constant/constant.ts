@@ -11,6 +11,12 @@ export const NombresPadres = {
 }
 
 export const FechaLugar = {
+
+    Titulo_seccion_Civil: "Ceremonia Civil",
+    Lugar_Civil: "Parroquia Nsta. Sra. de la Providencia",
+    Distrito_Civil: "Calle Ugarte S/N, Paucarpata - Kennedy",
+
+
     Titulo_seccion: "Ceremonia Religiosa",
     Lugar: "Parroquia Nsta. Sra. de la Providencia",
     Distrito: "Calle Ugarte S/N, Paucarpata - Kennedy",
