@@ -1,11 +1,11 @@
-export const NombreNovio = "Gustavo Walther Paredes";
-export const NombreNovia = "Maria Teresa Carmen Vega";
+export const NombreNovio = "Maria Teresa Vega";
+export const NombreNovia = "Gustavo Walther Paredes";
 
 export const NombresPadres = {
-    titulo_1: "Padres de la Novio",
-    NombrePadreNovio: "Walter Alfredo Paredes Vilca",
-    NombreMadreNovio: "Edith Ysabel Quispe Zea",
-    titulo_2: "Padres del Novia",
+    titulo_1: "Padres del Novio",
+    NombrePadreNovio: "Walter Paredes Vilca",
+    NombreMadreNovio: "Edith Quispe Zea",
+    titulo_2: "Padres de la Novia",
     NombrePadreNovia: "Fidel Vega Chama",
     NombreMadreNovia: "Ana Maria Vega Vargas",
 }
@@ -14,13 +14,14 @@ export const FechaLugar = {
     Titulo_seccion: "Ceremonia Religiosa",
     Lugar: "Parroquia Nsta. Sra. de la Providencia",
     Distrito: "Calle Ugarte S/N, Paucarpata - Kennedy",
-    Titulo_seccion_2: "Se realizará el:",
+    Titulo_seccion_2: "Fecha y hora del Matrimonio:",
     DiaSemana: "Sábado",
     Dia: "21",
     Mes: "02",
     Anio: "2026",
     Hora: "11:30 am",
-}
+    punto: "export const FechaLugar",
+};
 
 export const Portada = {
     Imagen: "https://ik.imagekit.io/dq0g9qbo0/g2.jpeg",
@@ -30,9 +31,9 @@ export const Portada = {
 
 
 export const Novios = {
-    Novio: "Gustavo Walther Paredes",
-    Novia: "Maria Teresa Carmen Vega",
-    Mensaje: "Para que sean testigos de Nuestra boda religiosa y civil.",
+    Novio: "Teresa",
+    Novia: "Gustavo",
+    Mensaje: "Para que nos acompañen a celebrar el amor que unimos ante Dios y la vida,\n en este día tan especial.",
 }
 
 
