@@ -38,7 +38,7 @@ export const Portada = {
 export const Novios = {
     Novio: "Teresa",
     Novia: "Gustavo",
-    Frase: "Para que nos acompañen a celebrar el amor que unimos ante Dios y la vida,\n en un día tan especial para nosotros.",
+    Mensaje: "Para que nos acompañen a celebrar el amor que unimos ante Dios y la vida,\n en un día tan especial para nosotros.",
 }
 
 
