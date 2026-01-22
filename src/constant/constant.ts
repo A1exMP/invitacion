@@ -4,10 +4,10 @@ export const NombreNovia = "Gustavo Walther Paredes";
 export const NombresPadres = {
     titulo_1: "PADRES DEL NOVIO",
     NombrePadreNovio: "Ana Maria Vega Vargas",
-    NombreMadreNovio: "Fidel Vega Chama",
+    NombreMadreNovio: "Fidel Vega Chama (✝)",
     titulo_2: "PADRES DE LA NOVIA",
-    NombrePadreNovia: "Edith Quispe Zea",
-    NombreMadreNovia: "Walter Paredes Vilca",
+    NombrePadreNovia: "Edith Ysabel Quispe Zea",
+    NombreMadreNovia: "Walter Alfredo Paredes Vilca (✝)",
 }
 
 export const FechaLugar = {
