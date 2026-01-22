@@ -23,6 +23,18 @@ export const FechaLugar = {
     Hora: "11:30 am",
 }
 
+export const FechaLugar = {
+    Titulo_seccion: "Ceremonia Civil",
+    Lugar: "Fundo alto del Rio",
+    Distrito: "Prologación av. caracas, antes de cruzar el puente",
+    Titulo_seccion_2: "Fecha y hora del Matrimonio Civil:",
+    DiaSemana: "Sábado",
+    Dia: "21",
+    Mes: "02",
+    Anio: "2026",
+    Hora: "11:30 am",
+}
+
 export const Portada = {
     Imagen: "https://images.unsplash.com/photo-1523438885200-e635ba2c371e",
     Frase: "Con la bendición de Dios y el amor de nuestras familias,\n Tenemos el honor de invitarte a celebrar nuestro matrimonio.",
