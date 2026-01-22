@@ -8,7 +8,7 @@
     </div>
    <!-- <p class="info-text"><strong>{{Novios.Mensaje}}</strong></p> -->
     <p class="info-text-hight"><strong>{{Novios.Mensaje}}</strong></p>
-    <p class="info-text-variant">{{"Nos encataría que seas parte de este momento tan especial para nosotros."}}</p>
+    <p class="info-text-variant" style="margin-bottom: 20px">{{"Nos encataría que seas parte de este momento tan especial para nosotros."}}</p>
   </section>
   
 </template>
