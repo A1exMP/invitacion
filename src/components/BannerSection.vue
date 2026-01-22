@@ -2,8 +2,9 @@
   <section class="section banner">
     <div class="banner-bg img-fade-y" :style="bg">
     </div>
-    <h1 class="banner-title">{{ Portada.Titulo }}</h1>
     <div class="banner-content">
+      <h1 class="banner-title">{{ Portada.Titulo }}</h1>
+      
       <svg class="curved-text" viewBox="0 0 1420 450" preserveAspectRatio="xMidYMid meet">
         <!-- Generación dinámica de curvas para cada línea de texto -->
         <path 
@@ -26,7 +27,7 @@
 
 <script setup>
 import { computed } from 'vue';
-import { Portada as Portada } from "../constant/constant";
+import { Portada } from "../constant/constant";
 
 const lines = computed(() => {
   return Portada.Frase.split('\n');
@@ -56,7 +57,18 @@ const bg = {
 .banner {
   height: 90vh;
   position: relative;
+  display: flex;
+  align-items: flex-end; /* Align content to bottom by default (mobile) */
+  justify-content: center;
+  padding-bottom: 20px; 
   overflow: hidden;
+}
+
+@media (min-width: 720px) {
+  .banner {
+    align-items: center; /* Center content on desktop */
+    padding-bottom: 0; /* Remove padding when centered */
+  }
 }
 
 .banner-bg {
@@ -70,60 +82,52 @@ const bg = {
   z-index: -1;
 }
 
-@media (min-width: 768px) {
-  .banner-bg {
-    background-position: center -50px;
-  }
-}
-
-
-.banner-title {
-  position: absolute;
-  top: 40%; /* Un poco más arriba del centro visualmente */
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  text-align: center;
-  z-index: 10;
-  margin: 0;
-  padding: 0;
-}
-
-.banner-content {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+.banner-content{
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  padding-bottom: 20px;
-  z-index: 5;
+  text-align: center;
+  color: white;
+  gap: 40px;
+  padding-bottom: 10px; /* Fine tuning */
+  width: 100%; /* Ensure centering works */
 }
 
 .curved-text {
-  width: 100%;
+  width: 100%; /* Ancho responsivo */
   max-width: 900px;
-  height: 300px;
+  height: 300px; /* Aumentado para acomodar la nueva proporción */
   overflow: visible;
 }
 
 @media (max-width: 768px) {
   .curved-text {
-      height: 650px;
+      height: 200px; /* Menor altura en móvil pero suficiente para la curva */
+  }
+  .banner-content {
+      gap: 40px; /* Menos espacio */
   }
 }
 
 .romantic-text-svg {
   white-space: pre-line;
   fill: white;
-  font-family: 'Allura', user-defined; /* Fallback simplified */
+  font-family: 'Allura', cursive; /* Fallback or use var if possible in this context, but scoped styles might not resolve var from root seamlessly in SVG sometimes. Better to use standard font stack or var if supported. Vue scoped handles vars fine. */
   font-family: var(--font-romantic);
-  font-size: 48px;
+  font-size: 48px; /* Ajustado para que quepan dos líneas elegantemente */
 }
 
 @media (max-width: 768px) {
   .romantic-text-svg {
-    font-size: 58px;
+    font-size: 58px; /* Ligeramente más grande en el SVG para compensar el escalado */
   }
+}
+
+
+@media (min-width: 720px) {
+.banner-title{
+  padding-top: 120px;
+}
 }
 </style>
