@@ -12,15 +12,15 @@ export const NombresPadres = {
 
 export const FechaLugar = {
 
-    Titulo_seccion_Civil: "Recepción",
+    Titulo_seccion_Civil: "RECEPCIÓN",
     Lugar_Civil: 'Salón de eventos: "Fundo Alto del Río"',
     Distrito_Civil: "Referencia: Camino a Sabandía, pasando el Club de Ingenieros",
 
 
-    Titulo_seccion: "Ceremonia Religiosa",
+    Titulo_seccion: "CEREMONIA RELIGIOSA",
     Lugar: "Parroquia Nuestra Señora de la Providencia",
     Distrito: "Calle Ugarte s/n, Paucarpata – Kennedy",
-    Titulo_seccion_2: "Fecha y hora de la ceremonia:",
+    Titulo_seccion_2: "DETALLES DE LA BODA",
     DiaSemana: "Sábado",
     Dia: "21",
     Mes: "02",
@@ -38,7 +38,7 @@ export const Portada = {
 export const Novios = {
     Novio: "Teresa",
     Novia: "Gustavo",
-    Mensaje: "Para que nos acompañen a celebrar el amor que unimos ante Dios y la vida,\n en un día tan especial para nosotros.",
+    Mensaje: "Nos encataría que seas parte de este momento tan especial para nosotros",
 }
 
 
