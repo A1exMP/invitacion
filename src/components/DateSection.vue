@@ -7,9 +7,11 @@
       <div class="date">
         <p class="date-highlight">{{ FechaLugar.Dia}}</p>
         <p class="date-highlight">{{ FechaLugar.Mes}}</p>
-        <p class="date-highlight">{{ FechaLugar.Anio}}</p>
+        <p class="date-highlight">{{ FechaLugar.Anio}}</p>        
       </div>
-
+       <div class="date">
+        <p class="date-highlight">{"✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻"}</p>      
+      </div>
     </div>
   </section>
 </template>
