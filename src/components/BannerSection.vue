@@ -27,7 +27,7 @@
 
 <script setup>
 import { computed } from 'vue';
-import { Portada } from "../constant/constant";
+import { Portada3 as Portada } from "../constant/constant";
 
 const lines = computed(() => {
   return Portada.Frase.split('\n');
