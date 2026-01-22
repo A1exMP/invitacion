@@ -2,10 +2,10 @@ export const NombreNovio = "Maria Teresa Vega";
 export const NombreNovia = "Gustavo Walther Paredes";
 
 export const NombresPadres = {
-    titulo_1: "Padres del Novio",
+    titulo_1: "PADRES DEL NOVIO",
     NombrePadreNovio: "Ana Maria Vega Vargas",
     NombreMadreNovio: "Fidel Vega Chama",
-    titulo_2: "Padres de la Novia",
+    titulo_2: "PADRES DE LA NOVIA",
     NombrePadreNovia: "Edith Quispe Zea",
     NombreMadreNovia: "Walter Paredes Vilca",
 }
@@ -20,7 +20,7 @@ export const FechaLugar = {
     Titulo_seccion: "CEREMONIA RELIGIOSA",
     Lugar: "Parroquia Nuestra Señora de la Providencia",
     Distrito: "Calle Ugarte s/n, Paucarpata – Kennedy",
-    Titulo_seccion_2: "DETALLES DE LA BODA \n gustavo",
+    Titulo_seccion_2: "DETALLES DE LA BODA",
     DiaSemana: "Sábado",
     Dia: "21",
     Mes: "02",
@@ -36,8 +36,8 @@ export const Portada = {
 
 
 export const Novios = {
-    Novio: "Teresa",
-    Novia: "Gustavo",
+    Novio: "TERESA",
+    Novia: "GUSTAVO",
     Mensaje: "Nos encataría que seas parte de este momento tan especial para nosotros",
 }
 
@@ -65,12 +65,12 @@ export const MapaUbicacion = {
     pasos: [
         "¡El regalo es opcional, la asistencia obligatoria!",
         "Si desean tener un detalle con nosotros, pueden hacerlo de las siguientes maneras:",
-        "a. Con un obsequio \n enviado a:",
+        "a. Con un obsequio enviado a:",
         "Urb. Leoncio Prado W8 - Kennedy",
         "b. Con transferencia bancaria:",
         "Banco BCP · Cuenta: 21594885669004",
         "CCI: 00221519488566900424",
-        "María Teresa Vega · DNI: 73207623"],
+        "María Teresa Vega | DNI: 73207623"],
     titulo_modal_novios: "Contáctanos",
     novio: "Gustavo Paredes",
     novio_telefono: "900489727",
