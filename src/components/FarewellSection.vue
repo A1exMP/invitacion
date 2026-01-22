@@ -12,7 +12,7 @@
 import { Portada3 } from "../constant/constant";
 
 const bg = {
-  backgroundImage: `url(${Portada3.Imagen})`
+  backgroundImage: `url(${Portada3.Imagen})`,
 }
 </script>
 
@@ -39,7 +39,21 @@ const bg = {
 }
 
 .content {
+    padding-top: 250px;
+
   text-align: center;
-  color: white; /* Ensure text is visible over likely dark/faded bg */
+  color: white; 
+}/* Ensure text is visible over likely dark/faded bg */
+
+@media (min-width: 768px) {
+  .farewell-bg {
+    background-position: center -180px;
+  }
+  
+  .content {
+    padding-top: 0px;
+  text-align: center;
+  color: white; 
+}
 }
 </style>

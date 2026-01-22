@@ -27,26 +27,24 @@
         <span>{{ MapaUbicacion.boton_3 }}</span>
       </button>
 
-      <button class="icon-btn" @click="openModal('memory')">
+      <a class="icon-btn" href="https://drive.google.com/drive/folders/13uFJyNpQAyMAC9WXiy_eNHkRwZZ9ViT-?usp=drive_link" target="_blank" style="text-decoration: none;">
         <div class="icon-circle">
-          <!-- Icono Recuerdo (Imagen/Cámara) -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+          <!-- Icono Carpeta -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
         </div>
         <span>{{ MapaUbicacion.boton_4 }}</span>
-      </button>
+      </a>
     </div>
 
     <!-- Modales -->
     <Modal :isOpen="activeModal === 'map'" @close="closeModal">
       <h3 class="modal-title">{{ MapaUbicacion.titulo_modal_mapa }}</h3>
       <div class="map-container">
-        <iframe
-          src="https://www.google.com/maps?q=Lima&output=embed"
-          width="100%"
-          height="300"
-          style="border:0;"
-          loading="lazy"
-        ></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.1142725307886!2d-71.51398566436801!3d-16.41902179570157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424b10ca1065bf%3A0x4c7c92007c4eff0f!2sParroquia%20Nuestra%20Sra.%20De%20La%20Providencia!5e0!3m2!1ses-419!2spe!4v1769050782795!5m2!1ses-419!2spe" 
+        width="100%" height="100%" 
+        style="border:0;" allowfullscreen="" loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
       </div>
     </Modal>
 
@@ -79,19 +77,7 @@
       </div>
     </Modal>
 
-    <Modal :isOpen="activeModal === 'memory'" @close="closeModal">
-      <h3 class="modal-title">{{ MapaUbicacion.titulo_modal_recuerdo }}</h3>
-      <div class="map-container">
-        <iframe
-          :src="MapaUbicacion.recuerdo_url"
-          width="100%"
-          height="300"
-          style="border:0;"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </Modal>
+
 
   </section>
 </template>

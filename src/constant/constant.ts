@@ -23,7 +23,7 @@ export const FechaLugar = {
 }
 
 export const Portada = {
-    Imagen: "https://images.unsplash.com/photo-1523438885200-e635ba2c371e",
+    Imagen: "https://ik.imagekit.io/dq0g9qbo0/g2.jpeg",
     Frase: "Con la bendición de Dios y el amor de nuestras familias,\n Tenemos el honor de invitarte a celebrar nuestro matrimonio.",
     Titulo: "Nuestra Boda",
 };
@@ -37,12 +37,12 @@ export const Novios = {
 
 
 export const Portada2 = {
-    Imagen: "https://img.freepik.com/foto-gratis/novio-que-pone-anillo-dedo-novia_1157-338.jpg",
+    Imagen: "https://ik.imagekit.io/dq0g9qbo0/g1.jpeg",
     Frase: "El amor no es mirarse el uno al otro,\n es mirar juntos en la misma dirección.",
 }
 
 export const Portada3 = {
-    Imagen: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    Imagen: "https://ik.imagekit.io/dq0g9qbo0/g3.jpeg",
     Frase: "Con todo nuestro cariño",
     Titulo: "Gustavo & Teresa"
 }

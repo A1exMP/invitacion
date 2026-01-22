@@ -71,7 +71,7 @@ import { Portada2 } from "../constant/constant";
   }
   
   .message {
-      bottom: 20px;
+      bottom: 55px;
   }
 }
 </style>
