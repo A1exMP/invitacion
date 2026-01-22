@@ -3,10 +3,10 @@ export const NombreNovia = "Gustavo Walther Paredes";
 import imagen1 from "@/assets/imagen1.jpg";
 
 export const NombresPadres = {
-    titulo_1: "Padres de la Novio",
-    NombrePadreNovio: "Walter Alfredo Paredes Vilca",
-    NombreMadreNovio: "Edith Ysabel Quispe Zea",
-    titulo_2: "Padres del Novia",
+    titulo_1: "Padres del Novio",
+    NombrePadreNovio: "Walter Paredes Vilca",
+    NombreMadreNovio: "Edith Quispe Zea",
+    titulo_2: "Padres de la Novia",
     NombrePadreNovia: "Fidel Vega Chama",
     NombreMadreNovia: "Ana Maria Vega Vargas",
 }
