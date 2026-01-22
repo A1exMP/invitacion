@@ -1,5 +1,5 @@
-export const NombreNovio = "Gustavo Walther Paredes";
-export const NombreNovia = "Maria Teresa Carmen Vega";
+export const NombreNovio = "Maria Teresa Vega";
+export const NombreNovia = "Gustavo Walther Paredes";
 
 export const NombresPadres = {
     titulo_1: "Padres de la Novio",
@@ -14,7 +14,7 @@ export const FechaLugar = {
     Titulo_seccion: "Ceremonia Religiosa",
     Lugar: "Parroquia Nsta. Sra. de la Providencia",
     Distrito: "Calle Ugarte S/N, Paucarpata - Kennedy",
-    Titulo_seccion_2: "Se realizará el:",
+    Titulo_seccion_2: "Fecha y hora del Matrimonio:",
     DiaSemana: "Sábado",
     Dia: "21",
     Mes: "02",
@@ -30,8 +30,8 @@ export const Portada = {
 
 
 export const Novios = {
-    Novio: "Gustavo Walther Paredes",
-    Novia: "Maria Teresa Carmen Vega",
+    Novio: "Maria Teresa Carmen Vega",
+    Novia: "Gustavo Walther Paredes",
     Mensaje: "Para que sean testigos de Nuestra boda religiosa y civil.",
 }
 
