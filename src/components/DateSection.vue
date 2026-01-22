@@ -4,13 +4,10 @@
     <div class="date-class">
       <p class="date-highlight-variant"><strong>{{ FechaLugar.Titulo_seccion_2 }}</strong></p>
       <p class="date-highlight">{{ FechaLugar.DiaSemana}} {{ FechaLugar.Hora}}</p>
-      <div class="date">
-        <p class="date-highlight-variant">{{ FechaLugar.Dia}}</p>
-        <p class="date-highlight">{{ FechaLugar.Mes}}</p>
+      <div class="date" style="margin-bottom: 20px;">
+        <p class="date-highlight">{{ FechaLugar.Dia}}</p>
+        <p class="date-highlight-variant">{{ FechaLugar.Mes}}</p>
         <p class="date-highlight">{{ FechaLugar.Anio}}</p>        
-      </div>
-       <div>
-        <p style="margin-bottom: 20px;">{"✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻✻"}</p>
       </div>
     </div>
   </section>
