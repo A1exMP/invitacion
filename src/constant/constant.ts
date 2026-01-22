@@ -12,8 +12,8 @@ export const NombresPadres = {
 
 export const FechaLugar = {
 
-    Titulo_seccion_Civil: "Ceremonia Civil",
-    Lugar_Civil: "Salón de eventos: Fundo Alto del Rio",
+    Titulo_seccion_Civil: "Lugar de Recepción",
+    Lugar_Civil: "Salón de eventos: 'Fundo Alto del Rio'",
     Distrito_Civil: "Ref. Pasando el Club de Ingenieros, Camino a Sabandia",
 
 
