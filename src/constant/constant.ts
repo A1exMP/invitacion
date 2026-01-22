@@ -22,10 +22,10 @@ export const FechaLugar = {
     Distrito: "Calle Alfonso Ugarte 211, Jesus María - Paucarpata",
     
     Titulo_seccion_2: "DETALLES DE LA BODA",
-    DiaSemana: "Sábado 21 de Febrero, 2026",
-    Dia: "11",
-    Mes: "30",
-    Anio: "am",
+    DiaSemana: "Hora : ",
+    Dia: "Sabádo",
+    Mes: "21",
+    Anio: "Ferebro 2026",
     Hora: "11:30 am",
 };
 
