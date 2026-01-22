@@ -1,12 +1,12 @@
 <!-- DateSection.vue -->
 <template>
-  <section class="section">
+  <section class="section" style="margin-bottom: 20px;">
     <div class="date-class">
       <p class="date-highlight-variant"><strong>{{ FechaLugar.Titulo_seccion_2 }}</strong></p>
       <p class="date-highlight">{{ FechaLugar.DiaSemana}} {{ FechaLugar.Hora}}</p>
-      <div class="date" style="margin-bottom: 20px;">
+      <div class="date" >
         <p class="date-highlight">{{ FechaLugar.Dia}}</p>
-        <p class="date-highlight-variant">{{ FechaLugar.Mes}}</p>
+        <p class="date-highlight">{{ FechaLugar.Mes}}</p>
         <p class="date-highlight">{{ FechaLugar.Anio}}</p>        
       </div>
     </div>
