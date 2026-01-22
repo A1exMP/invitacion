@@ -21,11 +21,11 @@ export const FechaLugar = {
     Lugar: "Parroquia Nuestra Señora de la Providencia",
     Distrito: "Calle Alfonso Ugarte 211, Jesus María - Paucarpata",
     
-    Titulo_seccion_2: "DETALLES DE LA BODA",
-    DiaSemana: "Hora : ",
+    Titulo_seccion_2: "✽✽♥ DETALLES DE LA BODA 2026 ♥✽✽",
+    DiaSemana: "Hora: ",
     Dia: "Sabádo",
     Mes: "21",
-    Anio: "Ferebro 2026",
+    Anio: "Ferebro",
     Hora: "11:30 am",
 };
 
