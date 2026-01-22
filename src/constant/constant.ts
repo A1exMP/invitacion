@@ -19,12 +19,13 @@ export const FechaLugar = {
 
     Titulo_seccion: "CEREMONIA RELIGIOSA",
     Lugar: "Parroquia Nuestra Señora de la Providencia",
-    Distrito: "Calle Ugarte s/n, Paucarpata – Kennedy",
+    Distrito: "Calle Alfonso Ugarte 211, Jesus María - Paucarpata",
+    
     Titulo_seccion_2: "DETALLES DE LA BODA",
-    DiaSemana: "Sábado",
-    Dia: "21",
-    Mes: "02",
-    Anio: "2026",
+    DiaSemana: "Sábado 21 de Febrero, 2026",
+    Dia: "11",
+    Mes: "30",
+    Anio: "am",
     Hora: "11:30 am",
 };
 
@@ -38,8 +39,7 @@ export const Portada = {
 export const Novios = {
     Novio: "Teresa",
     Novia: "Gustavo",
-    Mensaje: "Nos encataría que seas parte de este momento tan especial para nosotros",
-    Mensaje: "sdsdsdsd",
+    Mensaje: "¡Estás invitado!",
 }
 
 
