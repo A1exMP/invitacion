@@ -1,5 +1,5 @@
 <template>
-  <section class="section">
+  <section class="section" style="margin-bottom: 20px;">
     <p class="info-text-hight"><strong><u>{{ FechaLugar.Titulo_seccion }}</u></strong></p>
     <p class="info-text">{{ FechaLugar.Lugar}}</p>
     <p class="info-text">{{ FechaLugar.Distrito}}</p>
@@ -16,7 +16,7 @@
   </section>
   <br>
    <section class="section">
-    <p class="info-text-hight"><strong>{{ FechaLugar.Titulo_seccion_Civil }}</strong></p>
+    <p class="info-text-hight"><strong><u>{{ FechaLugar.Titulo_seccion_Civil }}</u></strong></p>
     <p class="info-text">{{ FechaLugar.Lugar_Civil}}</p>
     <p class="info-text">{{ FechaLugar.Distrito_Civil}}</p>
 
