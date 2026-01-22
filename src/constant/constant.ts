@@ -39,6 +39,7 @@ export const Novios = {
     Novio: "Teresa",
     Novia: "Gustavo",
     Mensaje: "Nos encataría que seas parte de este momento tan especial para nosotros",
+    Mensaje: "sdsdsdsd",
 }
 
 
